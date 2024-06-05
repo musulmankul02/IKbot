@@ -28,7 +28,7 @@ SECRET_KEY = os.getenv('DJANGO_SECRET_KEY', 'your-secret-key')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = os.getenv('DJANGO_DEBUG', 'False') == 'True'
 
-ALLOWED_HOSTS ='django-insecure-5s1_i@fre6##_fr)afo%)l8s8%)yuj9mid_-_v4m+0t*32x&6i'
+ALLOWED_HOSTS = ['your-domain.com', 'your-pythonanywhere-domain.pythonanywhere.com']
 
 
 # Application definition
